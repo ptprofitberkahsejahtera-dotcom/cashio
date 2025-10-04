@@ -8,19 +8,27 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "class-variance-authority": "^0.7.1",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.326.0",
     "next": "15.5.4",
+    "next-pwa": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "next-pwa": "^5.6.0",
-    "tailwindcss": "^3.4.1",
-    "framer-motion": "^10.12.16",
-    "lucide-react": "^0.326.0"
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.18",
+    "tw-animate": "^1.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
     "typescript": "^5.1.6"
   }
 }
